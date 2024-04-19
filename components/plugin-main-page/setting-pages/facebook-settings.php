@@ -7,7 +7,7 @@ function dw_facebook_settings_tab() {
     ?>
     <h2>Facebook Settings</h2>
     <form action="options.php" method="post">
-        <?php settings_fields('digiezi-facebook-settings'); ?>
+        <?php settings_fields('dw-facebook-settings'); ?>
         <table class="form-table">
             <tr valign="top">
                 <th scope="row">FB Pixel</th>

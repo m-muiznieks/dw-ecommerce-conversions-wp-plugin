@@ -6,7 +6,7 @@ function dw_google_settings_tab() {
     ?>
     <h2>Google Settings</h2>
     <form action="options.php" method="post">
-        <?php settings_fields('digiezi-google-settings'); ?>
+        <?php settings_fields('dw-google-settings'); ?>
         <table class="form-table">
             <tr valign="top">
                 <th scope="row">Google Tag Manager ID (GTM-....)</th>
