@@ -56,7 +56,7 @@ function dw_send_detailed_purchase_data_to_webhook($order_id) {
         return;
     }
 
-    send_ecommerce_data($order);
+    dw_send_ecommerce_data($order);
 }
 
 

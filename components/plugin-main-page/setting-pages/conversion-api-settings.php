@@ -16,26 +16,7 @@ function dw_conversion_api_settings_tab() {
             </div>
             
             <div style="width: 50%;">
-                <h3>Datalayer Settings</h3>
-                <table class="form-table">
-                    <tr valign="top">
-                        <th scope="row">Enable Datalayer</th>
-                        <td>
-                            <?php 
-                            // Fetch the option value, ensure that the option name matches what you register
-                            $enable_datalayer = get_option('dw_enable_datalayer', 'FALSE'); // Default to 'FALSE'
-                            ?>
-                            <select name="dw_enable_datalayer">
-                                <option value="TRUE" <?php selected($enable_datalayer, 'TRUE'); ?>>Yes</option>
-                                <option value="FALSE" <?php selected($enable_datalayer, 'FALSE'); ?>>No</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr valign="top">
-                        <th scope="row">Datalayer ID</th>
-                        <td><input type="text" name="dw_datalayer_id" value="<?php echo esc_attr(get_option('dw_datalayer_id')); ?>" /></td>
-                    </tr>
-                </table>
+                
             </div>
         </div>
         <?php submit_button(); ?>
