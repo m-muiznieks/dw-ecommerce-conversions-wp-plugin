@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: DW Ecommerce Conversions
-Description: This plugin is used for ecommerce event creation, tracking ecommerce activities, and managing data layers for marketing analytics.
+Description: This plugin is used for ecommerce event creation, tracking ecommerce activities, and managing data layers for marketing analytics. Download the latest version here: https://github.com/m-muiznieks/dw-ecommerce-conversions-wp-plugin
 Version: 0.02 | UNSTABLE
 Author: Martins Muiznieks | DIGIWORKS.DEV
 */
