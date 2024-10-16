@@ -43,6 +43,7 @@ function dw_order_details($order_id) {
         'order_notes'               => dw_get_order_notes_details_from_order($order),
         'customer_note'             => $order->get_customer_note(),
         'environment'               => dw_get_customer_environment_details_from_order($order),
+        'meta'
     );
     
     return $order_data;

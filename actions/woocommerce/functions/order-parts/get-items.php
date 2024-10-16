@@ -37,7 +37,8 @@ function dw_order_get_items($order) {
             'parent_sku'    => $parent_sku,  // Include parent SKU
             'price'         => $product ? $product->get_price() : 0,
             'categories'    => dw_get_product_categories($product),
-            'is_variation'  => $product instanceof WC_Product_Variation // True if product is a variation
+            'is_variation'  => $product instanceof WC_Product_Variation, // True if product is a variation
+            'meta'          => $item->get_meta_data()
         ];
     }
 
