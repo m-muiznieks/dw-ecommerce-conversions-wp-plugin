@@ -12,5 +12,6 @@ function dw_get_shipping_details_from_order($order) {
         'state'         => $order->get_shipping_state(),
         'postcode'      => $order->get_shipping_postcode(),
         'country'       => $order->get_shipping_country(),
+        'method'        => $order->get_shipping_method(),
     );
 }
